@@ -1,0 +1,112 @@
+@media screen and (max-width: 1024px) {
+   #content,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+
+   .header-right{
+       display: visible;
+   }
+   .evaluasi {
+     width: 100%;
+   }
+
+   .disco {
+     width: 100%;
+   }
+   .picture {
+     width: 100%;
+   }
+   nav {
+     display: none;
+   }
+}
+
+@media all and (max-width: 670px) {
+  #content,
+  aside {
+      width: 100%;
+      padding: 0;
+  }
+  .header-right{
+      display: none;
+  }
+
+  /* Tambahkan CSS untuk menu-icon */
+  .menu-icon{
+      visibility: visible;
+  }
+
+  table {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .evaluasi {
+    width: 100%;
+    margin-top: 150px;
+  }
+
+  .disco {
+    width: 90%;
+  }
+
+  .picture {
+    width: 100%;
+  }
+  .sortmenu{
+        display:block;
+        flex-basis: 30%;
+        float:right;
+        font-size: 25px;
+        margin: 20px 35px;
+        color:white;
+    }
+    nav{
+        margin-top: 65px;
+        background-color: rgba(31, 25, 25, 0.9);
+        width:100%;
+        display: none;
+        text-align: center;
+        padding: 20px;
+    }
+    nav li{
+        list-style-type: none;
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    nav ul{
+        position: relative;
+        width: 100%;
+        text-align: center;
+    }
+    nav li a:hover{
+       background-color: rgba(68, 72, 82, 0.9);
+       padding: 20px;
+       transition: all 1s;
+    }
+    nav li a{
+        width: 100%;;
+        font-size: 20px;
+        color: white;
+        padding-bottom: 40px;
+    }
+
+    h4 {
+      position: absolute;
+      text-align: center;
+    }
+
+    h5 {
+      text-align: center;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+ nav {
+   visibility: hidden;
+ }
+}
